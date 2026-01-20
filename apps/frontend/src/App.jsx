@@ -6,7 +6,7 @@ export default function App() {
   const [selected, setSelected] = useState(null);
 
   const loadEntries = async () => {
-    const res = await fetch("http://localhost:3001/entries");
+    const res = await fetch("https://hashmap-nx.onrender.com/entries");
     const data = await res.json();
     setEntries(data);
   };
