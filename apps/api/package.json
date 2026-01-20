@@ -1,6 +1,17 @@
 {
+  "name": "hashmap-api",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node src/main.js",
-    "build": "echo 'No build needed'"
+    "build": "echo 'No build needed for Express'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
